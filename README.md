@@ -1,4 +1,4 @@
-# THE CODE IS IN THE MAIN BRANCH CLONE THE REPO AND CHANGE YOUR CREDENTIALS (consumer_key and consumer_secret)
+# THE CODE IS IN THE master BRANCH, CLONE THE REPO AND CHANGE YOUR CREDENTIALS (consumer_key and consumer_secret) for it to work smoothly
 # mpesa-SDK
 Introduction
 
