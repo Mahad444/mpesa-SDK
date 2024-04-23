@@ -9,69 +9,13 @@
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    <link href="" rel="stylesheet" />
+    <link rel="stylesheet" href="{{asset('css/styles.css')}}">
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" ">
     <script
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
     ></script>
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
-
-      body {
-        background-color: #eaedf4;
-        font-family: "Rubik", sans-serif;
-      }
-
-      .card {
-        width: 310px;
-        border: none;
-        border-radius: 15px;
-      }
-
-      .justify-content-around div {
-        border: none;
-        border-radius: 20px;
-        background: #f3f4f6;
-        padding: 5px 20px 5px;
-        color: #8d9297;
-      }
-
-      .justify-content-around span {
-        font-size: 12px;
-      }
-
-      .justify-content-around div:hover {
-        background: #545ebd;
-        color: #fff;
-        cursor: pointer;
-      }
-
-      .justify-content-around div:nth-child(1) {
-        background: #545ebd;
-        color: #fff;
-      }
-
-      span.mt-0 {
-        color: #8d9297;
-        font-size: 12px;
-      }
-
-      h6 {
-        font-size: 15px;
-      }
-      .mpesa {
-        background-color: green !important;
-      }
-      .records-tab:hover{
-       color:white;
-      }
-
-      img {
-        border-radius: 15px;
-      }
-    </style>
   </head>
   <body oncontextmenu="return false" class="snippet-body">
     <div class="container d-flex justify-content-center">
@@ -82,9 +26,8 @@
           <!-- <div style="display:none;"><span>Card</span></div> -->
         </div>
         <div class="media mt-4 pl-2">
-          <!-- <img src="./images/1200px-M-PESA_LOGO-01.svg.png" class="mr-3" height="75" /> -->
-          <!-- get images from resource folder -->
-            <img src="{{ asset('images/1200px-M-PESA_LOGO-01.svg.png') }}" class="mr-3" height="75" />  
+          <!-- image from the resource  -->
+          <img src="{{asset('images/mpesa.png')}}" alt="">
           <!-- <div class="media-body">
             <h6 class="mt-1">Enter Mobile Number To Deduct The Amount:</h6>
           </div> -->
