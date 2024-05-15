@@ -29,7 +29,7 @@ $code = substr($PartyA, 0, 1);
         $PartyB=174379;
         $PhoneNumber= $request->phone_number;
         $CallBackURL="https://supaaduka.com";
-        $AccountReference="Simon's Tech School Payment";
+        $AccountReference="Mahad Said Payment";
         $TransactionDesc="lipa Na M-PESA web development";
         $Remarks="Thank for paying!";
         
