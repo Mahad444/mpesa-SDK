@@ -20,7 +20,7 @@ Usage
 
 Confirmation and validation urls
 
-B2C Payment Request
+#B2C Payment Request
 
 This creates transaction between an M-Pesa short code to a phone number registered on M-Pesa.
 
@@ -42,7 +42,7 @@ $mpesa= new \Safaricom\Mpesa\Mpesa();
 
 $trasactionStatus=$mpesa->transactionStatus($Initiator, $SecurityCredential, $CommandID, $TransactionID, $PartyA, $IdentifierType, $ResultURL, $QueueTimeOutURL, $Remarks, $Occasion);
 
-B2B Payment Request
+#B2B Payment Request
 
 This is used to transfer funds between two companies.
 
